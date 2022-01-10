@@ -1,3 +1,6 @@
+Link to codepen: https://codepen.io/sharonodima/pen/ZEXjwRa
+
+
 1. What is the difference between an inline element and a block element? An inline element doesn't start on a new line while a block element always starts on a new line. An inline element only takes up as a much width as possible while a block element stretches out to the left and right as far as it can go. A block level element has a top and a bottom margin, whereas an inline element does not.
 2. What happens when an element is positioned absolutely? When an element is absolutely positioned, it nolonger exists in the normal document flow. Instead, it sits on its own layer separate from everything else.
 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? Make it an inline element.
