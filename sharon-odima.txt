@@ -1,0 +1,53 @@
+Link to codepen: https://codepen.io/sharonodima/pen/ZEXjwRa
+
+
+1. What is the difference between an inline element and a block element? An inline element doesn't start on a new line while a block element always starts on a new line. An inline element only takes up as a much width as possible while a block element stretches out to the left and right as far as it can go. A block level element has a top and a bottom margin, whereas an inline element does not.
+2. What happens when an element is positioned absolutely? When an element is absolutely positioned, it nolonger exists in the normal document flow. Instead, it sits on its own layer separate from everything else.
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? Make it an inline element.
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default, and 1 element that is display inline-block by default. 3 display block elements are div, ul and ol. 2 display inline elements are i, em and strong. 1 element that is display-inline block by default is span.
+5. In your own words, explain the box model. What is the fix for the box model? The box model allows us to add a border around elements, and to define space between elements. 
+
+    1. What is Semantic HTML? Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in webpages and web applications rather than merely to define its presentation or look.
+    2. What is HTML used for? It is used to structure a web page and its content.
+    3. What is an attribute and where do we put it? An attribute defines additional characteristics or properties of the element such as width and height of an image. An attribute is always specified in the start tag (or opening tag) and usually consists of name/value pairs like name="value" . An attribute value should always be enclosed in quotation marks.
+    4. What is the h1 tag used for? How many times should I use it on a page? The h1 tag is used for describing the topic of the page and its content. It should be used only once on  a page.
+    5. Name two tags that have required attributes. img(src, alt, width and height, ) and a(href)
+    6. What do we put in the head of our HTML document? The head of a HTML document contains metadata about the document and it is not displayed in the web browser when the page is loaded.
+    7. What is an id? The HTML id attribute is used to specify a unique id for an HTML element. You cannot have more than one element with the same id in an HTML document.
+    8. What elements can I add an id to? All elements within a a page.
+    9. How many times can I use the same id on a page? Since ids are unique, you should use a particular id once on each page.
+    10. What is a class? A class is an attribute used to define a group of HTML elements in order to apply unique styling and formatting to those elements with CSS
+    11. What elements can I add a class to? Any HTML element.
+    12. How many times can I use the same class on a page? As many times as you wish.
+    13. How do I get my link to open in a new tab? Add a target="_blank" attribute to your links
+    14. What is the alt attribute in the image tag used for? The alt text adds a text description to an image on a Web page, and should be used for all images, graphical bullets, and graphical horizontal rules. ALT text is accessed by screen reader users to provide them with a text equivalent of images.
+    15. How do I reference an id? write a hash character (#), followed by an id name.
+    16. What is the difference between a section and a div? section tag means that the content inside relates to a single theme, and div tag is used as a block part of the webpage and don’t convey any particular meaning.
+    17. What is CSS used for? It is used to add style to a web page by dictating how a site is displayed on a browser.
+    18. How do we select an element? Example - every h2 on the page?  By using the tag name without the angle brackets (< and >). 
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one.
+    20. How do we select classes in CSS? To select elements with a specific class, write a period (.) character, followed by the name of the class.
+    21. How do we select a p element with a single class of “human””?
+    22. What is a parent child selector? When would this be useful? selects all elements that are a direct child of the specified element.
+    23. How do you select all links within a div with the class of sidebar?
+    24. What is a pseudo selector? A pseudo-class is a selector that selects elements that are in a specific state, e.g. they are the first element of their type, or they are being hovered over by the mouse pointer.
+    25. What do we use to change the spacing between lines? Use the line-height property
+    26. What do we use to change the spacing between letters? Use the letter-spacing property
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? Use the text-transform CSS property
+    28. How do I add a 1px border around my div that is dotted and black? <div style="border: dotted 1px black" id="mydiv">content</div>. or <style type='text/css'> #mydiv { border: dotted 1px black; } </style>.
+    29. How do I select everything on the page? The * selector selects all elements. 
+    30. How do I write a comment in CSS? lace your plain text inside /* */ marks.
+    31. How do I find out what file I am in, when I am using the command line? use the pwd command
+    32. Using the command line - how do I see a list of files/folders in my current folder? use the ls command
+    33. How do I remove a file via the command line? Why do I have to be careful with this? use the rm command. You have to be careful when using rm because you won't be prompted before deleting the file.
+    34. Why should I use version control? Having a Version Control System helps handle any content add in parallel by maintaining a history of what changes have happened.
+    35. How often should I commit to github? Every 20 mins or whenever you get a major feature working.
+    36. What is the command we would use to push our repo up to github? git push
+    37. Walk me through Lambda's git flow. Fork the repo, clone the repo, cd into the new repo, craete a branch by typing git checkout -b firstname-lastname, open VS code by typing code ., work on your project, push changes up to github by using git add ., git commit -m 'messsage' and then git push -u origin firstname-lastname, create a pull request, click on the button that says compare and pull request, click on drop down and choose your repo as the base, click on button to create a pull request, then submit the url for your pull request in canvas.
+
+1. What is git? What is the difference between git and GitHub? Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub is designed to help you better manage them
+2. Why do we create a branch? So we can work on the project by adding our own stuff without messing with the main project.
+3. What is the purpose of a pull request? The purpose of a pull request is to let your team know that there are changes to review.
+4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. use the “git switch” command and specify the name of the branch you want to switch to.
+5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? The git fetch command downloads commits, files, and refs from a remote repository into your local repo. Fetching is what you do when you want to see what everybody else has been working on. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch. The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+6. What is a merge conflict? How do you resolve a merge conflict? Merge conflicts occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file. You can resolve merge conflicts using the command line and a text editor.
